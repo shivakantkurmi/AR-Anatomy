@@ -1,6 +1,6 @@
 # AR Anatomy App
 
-<img src="https://your-image-url.com/banner.png" width="600">
+<img src="<img width="256" alt="logo" src="https://github.com/user-attachments/assets/ed4ad7dc-35d6-4828-9b78-b6f67d2cc75f" width="600">
 
 ## 📖 Description
 The **AR Anatomy App** is an educational Augmented Reality (AR) application that utilizes **Vuforia Engine** and **Unity** to track a marker and project anatomical structures in 3D. This interactive experience enhances learning by allowing users to explore human anatomy in real-time.
