@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+  <Tracking>
+    <ImageTarget name="heart" size="0.500000 0.500000" />
+    <ImageTarget name="brain" size="0.500000 0.400000" />
+    <ImageTarget name="istockphoto-1366264420-612x612" size="0.500000 0.798956" />
+  </Tracking>
+</QCARConfig>
