@@ -32,9 +32,13 @@ The **AR Anatomy App** is an educational Augmented Reality (AR) application that
 2. Open Unity and load the project.
 3. Import the **Vuforia Engine** package if not included.
 4. Set up the **AR Camera** and add an **Image Target** in the Unity scene.
-5. Assign the desired **3D anatomical model** to the Image Target.
-6. Configure the Vuforia License Key in Unity.
-7. Build and run the application on a supported device.
+5. **[IMPORTANT]** Download the anatomical models from this Google Drive link:  
+   📦 [Download 3D Anatomical Models](https://drive.google.com/file/d/1tbVLd5VriaL_5fDHnN9RaUV2bS3vV66L/view?usp=sharing)
+   or from link :  [Download 3D Anatomical Models](https://sketchfab.com/Z-Anatomy)
+7. Import the downloaded models into the `Assets/Anatomy Model/` folder inside Unity.
+8. Assign the desired **3D anatomical model** to the Image Target.
+9. Configure your **Vuforia License Key** in Unity.
+10. Build and run the application on a supported device.
 
 ## 📌 Usage Instructions
 1. Open the application on your device.
@@ -44,7 +48,7 @@ The **AR Anatomy App** is an educational Augmented Reality (AR) application that
 5. Enable the **Overlay Mode** to layer one anatomical system over another for comparison.
 
 ## 📂 Supported Anatomical Models
-The app includes multiple anatomical models categorized into different systems:
+The app supports multiple anatomical models categorized into different systems:
 - **Myology** (Muscular System)
 - **Neurology** (Nervous System)
 - **Angiology** (Circulatory System)
@@ -52,14 +56,13 @@ The app includes multiple anatomical models categorized into different systems:
 - **Splanchnology** (Visceral Organs)
 - **Muscular Insertions** (Attachment points of muscles)
 
-New models can be added by importing 3D assets into Unity and assigning them to Vuforia Image Targets.
+👉 Download and import all model files from the shared **Google Drive** link above.
 
 ## 📷 Screenshots
 <img src="https://github.com/user-attachments/assets/4e2cae2b-ab05-4d5f-98bd-4d4a9d68b884" width="500">
 <img src="https://github.com/user-attachments/assets/adf5936c-132c-4e6d-b48c-4048ea96595b" width="500">
 <img src="https://github.com/user-attachments/assets/e093f3d9-8cbf-44c5-89d6-02177b780c5f" width="500">
 <img src="https://github.com/user-attachments/assets/b5ea8fe0-7ddf-4efb-b9e6-983ee37cf916" width="500">
-
 
 ## 🤝 Contributing
 We welcome contributions! Follow these steps:
@@ -70,7 +73,6 @@ We welcome contributions! Follow these steps:
 
 ## 📜 License
 This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
-
 
 ⭐ **Don't forget to star the repo if you found it useful!** ⭐
 
