@@ -27,7 +27,7 @@ The **AR Anatomy App** is an educational Augmented Reality (AR) application that
 ### 🔹 Steps to Run the Project
 1. Clone this repository:
    ```sh
-   git clone https://github.com/yourusername/ar-anatomy-app.git
+   git clone https://github.com/shivakantkurmi/AR-Anatomy.git
    ```
 2. Open Unity and load the project.
 3. Import the **Vuforia Engine** package if not included.
