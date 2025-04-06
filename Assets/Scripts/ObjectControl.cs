@@ -9,6 +9,7 @@ public class ObjectControl : MonoBehaviour
     public float scaleSpeed = 0.02f;  // Scale speed multiplier
     public float minScale = 0.1f;    // Minimum scale limit
     public float maxScale = 2f;      // Maximum scale limit
+    public Vector3 roatationVec=new Vector3(0,0,1);
 
     private float lastPinchDistance = 0;
 
@@ -39,7 +40,7 @@ public class ObjectControl : MonoBehaviour
                 
                 if (touch.screenPosition.x >= screenMid) // Right Side → Rotate
                 {
-                    augmentedObject.Rotate(Vector3.forward, touch.delta.x*0.05f * rotateSpeed * Time.deltaTime);
+                    augmentedObject.Rotate(roatationVec, touch.delta.x*0.05f * rotateSpeed * Time.deltaTime);
                 }
             }
         }

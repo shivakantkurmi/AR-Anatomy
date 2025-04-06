@@ -9,3 +9,5 @@ Build/
 Builds/
 UserSettings/
 Packages/com.unity.collab-proxy/
+*.obj
+Assets/Anatomy Model/Z-Anatomy
